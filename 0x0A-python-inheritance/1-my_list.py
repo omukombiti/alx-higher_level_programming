@@ -1,16 +1,11 @@
 #!/usr/bin/python3
-"""
-This file contains a class definition for
-a MyList object.
-"""
+
+"""Defines an inherited list class MyList."""
 
 
 class MyList(list):
-        """
-            This class inherits from the
-                list class.
-                    """
+     """Implements sorted printing for the built-in list class."""
 
-                        def print_sorted(self):
-                                    """ prints the list in ascending order """
-                                            print(sorted(self))
+     def print_sorted(self):
+         """Print a list in sorted ascending order."""
+         print(sorted(self))
